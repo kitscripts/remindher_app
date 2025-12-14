@@ -2,6 +2,8 @@
   "name": "k-reminder-app",
   "private": true,
   "version": "0.0.0",
+  "description": "Smart Reminder App",
+  "author": "Kit",
   "scripts": {
     "dev": "vite",
     "build": "vite build && electron-builder",
@@ -14,7 +16,7 @@
     "appId": "com.remindher.app",
     "productName": "RemindHer",
     "mac": {
-      "target": "zip"
+      "target": "dmg"
     },
     "win": {
       "target": "nsis"
